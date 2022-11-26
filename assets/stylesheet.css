@@ -24,16 +24,16 @@ body {
 
 @-webkit-keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #c6a283;
   }
   25% {
-    background-color: #f3d7a7;
+    background-color: #a27e40;
   }
   50% {
     background-color: #fad0ac;
   }
   75% {
-    background-color: #f6e5c9;
+    background-color: #a1814d;
   }
   100% {
     background-color: #e6c1a0;
@@ -41,16 +41,16 @@ body {
 }
 @-moz-keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #c6a283;
   }
   25% {
-    background-color: #f3d7a7;
+    background-color: #a27e40;
   }
   50% {
     background-color: #fad0ac;
   }
   75% {
-    background-color: #f6e5c9;
+    background-color: #a1814d;
   }
   100% {
     background-color: #e6c1a0;
@@ -59,16 +59,16 @@ body {
 
 @-o-keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #c6a283;
   }
   25% {
-    background-color: #f3d7a7;
+    background-color: #a27e40;
   }
   50% {
     background-color: #fad0ac;
   }
   75% {
-    background-color: #f6e5c9;
+    background-color: #a1814d;
   }
   100% {
     background-color: #e6c1a0;
@@ -77,16 +77,16 @@ body {
 
 @-ms-keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #c6a283;
   }
   25% {
-    background-color: #f3d7a7;
+    background-color: #a27e40;
   }
   50% {
     background-color: #fad0ac;
   }
   75% {
-    background-color: #f6e5c9;
+    background-color: #a1814d;
   }
   100% {
     background-color: #e6c1a0;
@@ -95,16 +95,16 @@ body {
 
 @keyframes peach_alive {
   0% {
-    background-color: #ffdab9;
+    background-color: #c6a283;
   }
   25% {
-    background-color: #f3d7a7;
+    background-color: #a27e40;
   }
   50% {
     background-color: #fad0ac;
   }
   75% {
-    background-color: #f6e5c9;
+    background-color: #a1814d;
   }
   100% {
     background-color: #e6c1a0;
@@ -1269,7 +1269,8 @@ o @keyframes bannar_come {
 #cake_fadein,
 #light_candle,
 #wish_message,
-#story {
+#story,
+#cake_cut {
   display: none;
 }
 
@@ -1300,13 +1301,13 @@ o @keyframes bannar_come {
 }
 
 .btn-primary {
-  border-color: #466baf;
+  border-color: #af4991;
   padding: 10px;
   text-transform: uppercase;
   font-family: "Signika", sans-serif;
   font-weight: 700;
   color: #fff;
-  background-color: #466baf;
+  background-color: #af4991;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -1315,7 +1316,7 @@ o @keyframes bannar_come {
 .open .dropdown-toggle.btn-primary {
   border-color: #fff;
   color: #fff;
-  background-color: #466baf;
+  background-color: #af4991;
 }
 
 /*controlling tablet width*/

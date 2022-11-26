@@ -3,12 +3,15 @@ var config = {
   // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
   // 每句话尽量不要超过15个字,不然展示效果可能不太好
   texts: [
-    "Cô gái dễ thương của anh", //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-    "Hôm nay là ngày sinh nhật của em", // 同上...
+    "Cô gái dễ thương của anh💝", //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
+    "Hôm nay là ngày sinh nhật 🎂 của em", // 同上...
     "Mong em sẽ thật hạnh phúc",
-    "Tất cả những gì anh có thể làm trong ngày sinh nhật em chỉ có thế thôi!!!",
+    "Tất cả những gì anh có thể làm",
+    "Trong ngày sinh nhật em chỉ có thế thôi!!!",
+    "Hy vọng những năm tới",
+    "Anh có thể làm cho em nhiều hơn thế nữa",
     "Em có vui không Bé ???",
-    "Love you~~",
+    "Love youx3000 ~",
   ],
   /**
    * imgs 可以不填, 但是如果要填写的话必须遵循下面的格式
@@ -20,7 +23,10 @@ var config = {
    * Tip: 图片最好用正方形or接近正方形, 看起来效果更好
    */
   imgs: {
-    "Bé Ngân Dễ Thương 💝": "imgs/em.jpg",
+    "Cô gái dễ thương của anh💝": "./imgs/em.jpg",
+    "Em có vui không Bé ???": "./imgs/troll.jpg",
+    "Love you": "./imgs/em1.jpg",
+
     // "今天是你的生日": "./imgs/birthday.jpg",
   },
   // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
@@ -33,5 +39,6 @@ var config = {
     light_candle: "Bật 🔥 lên nè",
     wish_message: "Bắt đầu cầu nguyện thôi !!!",
     story: "Đây là những gì anh muốn nói với em",
+    cake_cut: "Cắt bánh kem thôi",
   },
 };
